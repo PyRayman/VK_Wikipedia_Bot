@@ -31,4 +31,4 @@ while True:
 			bot.method('messages.send',{'peer_id':id,'message':'Link to the full page: ' + page.fullurl,"random_id":random.randint(1,9223372036854775807)})
 			
 		else:
-			bot.method('messages.send',{'peer_id':id,'message':'The name is incorrect!',"random_id":random.randint(1,9223372036854775807)})
+			bot.method('messages.send',{'peer_id':id,'message':'The name is incorrect! Try again !',"random_id":random.randint(1,9223372036854775807)})
